@@ -1,5 +1,5 @@
 const fuel = require('./fuelCalc.js');
 
 test("Check if you can make it with fuel", () => {
-    expect(fuel(40)).toBe(40);
+    expect(fuel(50,25,2)).toBe(50);
 })
