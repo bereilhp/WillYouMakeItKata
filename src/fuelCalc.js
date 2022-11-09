@@ -1,5 +1,5 @@
-function fuel(){
-    return true;
+function fuel(a){
+    return a;
 }
 
 module.exports = fuel;
