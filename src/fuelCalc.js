@@ -1,6 +1,6 @@
 function fuel(nearestPump, mpg, gallonsLeft){
-    x = mpg * gallonsLeft;
-    return nearestPump <= x;
+    fuelTotal = mpg * gallonsLeft;
+    return nearestPump <= fuelTotal;
 }
 
 module.exports = fuel;
